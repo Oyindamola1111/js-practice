@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 50px;
+  }
+
+  #number {
+    font-size: 40px;
+    color: white;
+    margin: 20px;
+    width: 100%;
+    background-color: black;
+    height: 3rem;
+  }
+
+  button {
+    font-size: 20px;
+    padding: 10px 20px;
+  }
