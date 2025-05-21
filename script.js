@@ -152,21 +152,19 @@
 //   start.style.fontSize="40px";
 // }
 
-// let book = document.getElementById("mali");
+// let a = document.getElementById("mali");
 // function increase() {
-//   let note = parseInt(book.innerText);
-//   book.innerText = note + 1;
-//   book.style.color="green";
-//   book.style.fontSize="40px";
-  
+//   let b = parseInt(a.innerText);
+//   a.innerText = b + 1;
+//   a.style.color="green";
+//   a.style.fontSize="40px";
 // }
 
 // function decrease() {
-//   let note = parseInt(book.innerText);
-//   book.innerText = note - 1;
-//   book.style.color="red";
-//   book.style.fontSize="40px";
-  
+//   let b = parseInt(a.innerText);
+//   a.innerText = b - 1;
+//   a.style.color="red";
+//   a.style.fontSize="40px";
 // }
 
 
@@ -226,10 +224,18 @@
 //     age: 34,
 //     mail: "shade@gmail.com"
 // };
-//  console.log(student);
-//  console.log(student.name);
-//  console.log(Object.keys(student));
-//  console.log(Object.values(student));
+// console.log(student);
+// console.log(student.name);
+// console.log(Object.keys(student));
+// console.log(Object.values(student));
+
+
+// console.log(student.age);
+// console.log(student.mail);
+
+
+
+
 
 // FUNCTIONS
 
@@ -245,6 +251,94 @@
     
 // }
 // addNum(30,8);
+
+// function numbers() {
+//     let num1 = prompt("Enter a number");
+//     let num2 = prompt("Enter a number");
+//     let num3 = prompt("Enter a number");
+//     let num4 = prompt("Enter a number");
+//     console.log(Math.max(num1,num2,num3,num4),"is the highest number");
+// }
+// numbers()
+
+// function evenNumbers() {
+//     let solution = prompt("Enter number")
+//     if (solution % 2=== 0) {
+//         console.log(`${solution} is an even number`);
+//     }else{
+//         console.log(`${solution} is an odd number`);
+//     }
+// }
+// evenNumbers()
+
+// function name() {
+//     let grade = parseInt(prompt("Enter score"));
+//     if (grade >= 90 && grade <= 100) {
+//         console.log(`${grade} is A grade`)
+//     }else if (grade >= 75 && grade < 90) {
+//         console.log(`${grade} is B grade`);
+//     }else if (grade >= 60 && grade < 75) {
+//         console.log(`${grade} is C grade`);
+//     }else if (grade >= 50 && grade < 60) {
+//         console.log(`${grade} is D grade`);
+//     }else if (grade >= 35 && grade < 50) {
+//         console.log(`${grade} is E grade`);
+//     }else if (grade >= 0 && grade < 35) {
+//         console.log(`${grade} is F grade`);
+//     }else{
+//         console.log(`${grade} is invalid`);
+//     }
+// }
+// name()
+
+// function greaterNumber() {
+//     let firstNumber = parseInt(prompt("Enter a number"));
+//     let secondNumber = parseInt(prompt("Enter a number"));
+//     if (firstNumber > secondNumber ) {
+//         console.log(`${firstNumber}`, "firstNumber is greater");
+//     }else if (secondNumber > firstNumber) {
+//         console.log(`${secondNumber}`, "secondNumber is greater");
+//     }else{
+//         console.log("invalid");
+//     }
+// }
+// greaterNumber()
+
+// TO CHECK THE LENGTH OF A THING E.G NAME
+
+// function numberLength() {
+//     let name = prompt("Enter a Name")
+//     console.log(name.length);
+// }
+// numberLength()
+
+
+// Math
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
