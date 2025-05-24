@@ -369,6 +369,11 @@
 
 // console.log(chl.includes("mark"));
 
+function changeText() {
+    document.getElementById('true').innerText="close"
+    
+}
+
 
 
 
