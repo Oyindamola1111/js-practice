@@ -1,4 +1,4 @@
-body {
+.main-body{
     /* text-align: center; */
     font-family: sans-serif;
     /* padding-top: 50px; */
@@ -9,7 +9,7 @@ body {
   }
 
   .container{
-    width: 500px;
+    width: 800px;
     height: 400px;
     background-color: aqua;
     display: flex;
@@ -18,7 +18,7 @@ body {
     justify-content: center;
   }
 
-  #number {
+  #mali {
     /* font-size: 40px; */
     /* color: white; */
     /* margin: 20px; */
@@ -26,6 +26,9 @@ body {
     /* background-color: black; */
     height: 3rem;
   }
+
+
+
 
   .btn {
     font-size: 20px;
@@ -37,13 +40,15 @@ body {
     margin-top: 10px;
   }
 
-  p{
+  .zero{
     color: red;
     font-size: 40px;
-    height: 1rem;
+    height: 2rem;
+    
   }
 
   .display{
     display: flex;
     gap: 10px;
+    margin-top: 30px;
   }

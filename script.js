@@ -167,6 +167,37 @@
 //   a.style.fontSize="40px";
 // }
 
+// let a = document.getElementById('mali');
+// function increase() {
+//     let b = parseInt(a.innerText);
+//     a.innerText = b + 1;
+//     a.style.color='green';
+//     a.style.fontSize='40px'
+// }
+
+// function decrease() {
+//     let b = parseInt(a.innerText);
+//     a.innerText = b - 1;
+//     a.style.color='red';
+//     a.style.fontSize='40px';
+// }
+
+// function moving() {
+//     let b = parseInt(a.innerText);
+//     a.innerText= b * 2;
+//     a.style.color = 'yellow';
+// }
+
+// function division() {
+//     let b = parseInt(a.innerText);
+//     a.innerText=b/2;
+//     a.style.color='tomato'; 
+// }
+
+  
+
+
+
 
 
 // string methods .... a must know
