@@ -192,9 +192,9 @@
 //     let b = parseInt(a.innerText);
 //     a.innerText=b/2;
 //     a.style.color='tomato'; 
-// }
+//     console.log(a);   
+// }division()
 
-  
 
 
 
@@ -344,7 +344,37 @@
 // numberLength()
 
 
-// Math
+// console.log(document.getElementsByClassName('para')[1].innerText='yellow');
+// console.log(document.getElementsByClassName('para')[0].innerText='blue');
+// console.log(document.getElementsByClassName('para')[2].innerText='red');
+// console.log(document.getElementsByClassName('para')[3].innerText='long');
+// console.log(document.getElementsByClassName('para')[4].innerText='fiv-to- ten');
+
+// function quick() {
+//     let a = parseInt(prompt('enter a number'));
+//     let b = parseInt(prompt('enter a number'));
+//     if (a>b) {
+//         console.log(`${a} is greater`);
+//     }else if (a===b) {
+//         console.log('both numbers are equal');
+//     }else if (b>a) {
+//        console.log(`${b} is greater`);
+//     }else{
+//         console.log('invalid');
+//     }
+// }quick()
+
+// let chl = ["armntrh","toli","john"];
+// console.log(chl.includes('toli'));
+
+// console.log(chl.includes("mark"));
+
+
+
+
+
+
+ 
 
 
 
