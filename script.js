@@ -371,7 +371,10 @@
 
 function changeText() {
     document.getElementById('true').innerText="close"
-    
+}
+
+function change() {
+    document.getElementById('false').innerText="false"
 }
 
 
