@@ -370,11 +370,11 @@
 // console.log(chl.includes("mark"));
 
 function changeText() {
-    document.getElementById('true').innerText="close"
+    document.getElementById('orr').innerText="close";  
 }
 
 function change() {
-    document.getElementById('false').innerText="false"
+    document.getElementById('nno').innerText="false";
 }
 
 
