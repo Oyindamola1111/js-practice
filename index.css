@@ -1,7 +1,7 @@
-.main-body{
-    /* text-align: center; */
+/* .main-body{
+     text-align: center; 
     font-family: sans-serif;
-    /* padding-top: 50px; */
+     padding-top: 50px; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,16 +19,13 @@
   }
 
   #mali {
-    /* font-size: 40px; */
-    /* color: white; */
-    /* margin: 20px; */
-    /* width: 20%; */
-    /* background-color: black; */
+     font-size: 40px; 
+     color: white; 
+     margin: 20px; 
+     width: 20%; 
+     background-color: black; 
     height: 3rem;
   }
-
-
-
 
   .btn {
     font-size: 20px;
@@ -40,7 +37,7 @@
     margin-top: 10px;
   }
 
-  .zero{
+  #zero{
     color: red;
     font-size: 40px;
     height: 2rem;
@@ -51,4 +48,70 @@
     display: flex;
     gap: 10px;
     margin-top: 30px;
+  }
+
+  #mam{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+  } */
+/* 
+  body{
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #chat-function{
+    background: white;
+    width: 200px;
+    margin-top: 4px;
+    padding: 10px;
+  }
+  input{
+    width: 90%;
+  }
+
+  p{
+    background: pink;
+    margin-bottom: 5px;
+    padding-left: 5px;
+  } */
+
+  body{
+    background: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  #main-body{
+    background-color: white;
+    width: 40%;
+    padding: 40px;
+  }
+  #parent{
+    text-align: center;
+  }
+  #input1{
+    width: 100%;
+    height: 1.8rem;
+    margin-bottom: 10px;
+  }
+  #input2{
+    width: 100%;
+    height: 1.8rem;
+    
+  }
+  #btn1{
+    background:rgb(113, 170, 224);
+    color: white;
+    width: 80%;
+    height: 1.8rem;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  #btn1:hover{
+    background-color: lightskyblue;
   }

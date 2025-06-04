@@ -369,21 +369,208 @@
 
 // console.log(chl.includes("mark"));
 
-function changeText() {
-    document.getElementById('orr').innerText="close";  
+// document.getElementById("para1").innerText
+// para1.style.color="red";
+// para1.style.backgroundColor="blue";
+// para1.style.width="200px";
+// para1.style.height="100px";
+// para1.style.fontSize="40px";
+
+// document.getElementById("para2").innerText
+// para2.style.backgroundColor="tomato"
+// para2.style.color="white";
+// para2.style.width="200px";
+// para2.style.height="100px";
+// para2.style.fontSize="40px";
+
+
+// document.getElementById("para3")
+// para3.style.color="blue";
+// para3.style.fontSize="40px";
+// para3.style.backgroundColor="yellow";
+// para3.style.width="200px";
+// para3.style.height="100px";
+
+// document.getElementById("para4")
+// para4.style.color="gold";
+// para4.style.backgroundColor="red";
+// para4.style.width="200px";
+// para4.style.height="100px";
+// para4.style.fontSize="40px";
+
+// document.getElementById("para5")
+// para5.style.backgroundColor="black";
+// para5.style.color="white";
+// para5.style.width="200px";
+// para5.style.height="100px";
+// para5.style.fontSize="40px";
+
+
+// function changeText() {
+//     document.getElementById('orr').innerText="close";  
+// }
+
+// function change() {
+//     document.getElementById('nno').innerText="false";
+// }
+
+// function turn() {
+//     document.getElementById('pol').innerText="Hot";
+// }
+// function tur() {
+//     document.getElementById('pol').innerText="warm";
+// }
+
+
+// let a = document.getElementById("zero");
+// function increase() {
+//     let b = parseInt(a.innerText);
+//     a.innerText = b + 1;
+//     a.style.backgroundColor="yellow";
+//     a.style.fontSize="30px"
+//     a.style.color="green"
+// }
+
+// let c = document.getElementById("zero");
+// function decrease() {
+//     let d = parseInt(c.innerText);
+//     c.innerText = d - 1;
+//     c.style.color="red";
+//     c.style.backgroundColor="green";
+//     c.style.fontSize="30px";
+// }
+
+// let e = document.getElementById("zero");
+// function moving() {
+//     let f = parseInt(e.innerText);
+//     e.innerText = f * 2;
+//     e.style.color="white";
+//     e.style.backgroundColor="brown";    
+//     e.style.fontSize="30px";
+// }
+
+// let g = document.getElementById("zero")
+// function division() {
+//     let h = parseInt(g.innerText);
+//     g.innerText = h / 2;
+//     g.style.color="purple";
+//     g.style.backgroundColor="white";
+//     g.style.fontSize="30px";
+// }
+
+// function highestNumber() {
+//     let a = parseInt(prompt("enter first number"));
+//     let b = parseInt(prompt("enter second number"));
+//     let c = parseInt(prompt("enter third number"));
+//     let d = parseInt(prompt("enter fourth number"));
+//     console.log(Math.max(a,b,c,d), "is the highest number");
+    
+// }highestNumber()
+
+// function plum() {
+//     for (let a = 0; a < 11; a++) {       
+//         console.log(a);
+//     }
+// }plum()
+
+
+// function addMsg() {
+//     let input = document.getElementById('input-box');
+//     let text = input.value.trim();
+//     if (text==="") {
+//         alert('Enter message')
+//     }
+//     let p = document.createElement('p');
+//     p.textContent=input.value;
+//     document.getElementById('chatlist').appendChild(p);
+//     input.value="";
+// }
+
+
+// function addMsg() {
+//     let input = document.getElementById('input-box');
+//     let text = input.value.trim();
+//     if (text === "") {
+//         alert('Enter a text')
+//     } 
+//     let p = document.createElement('p');
+//     p.textContent=input.value;
+//     document.getElementById('chatlist').appendChild(p);
+//     input.value="";
+// }
+
+
+// function big() {
+//     let a = prompt('enter a task');
+//     if (a === "") {
+//         alert('enter a task');  
+//     } 
+//     console.log(a);
+// }big()
+
+// function add() {
+//     let a = parseInt(prompt('enter task'));
+//     let b = parseInt(a.innerContent);
+//     a.innerContent=b +1;
+//     console.log(b);
+    
+
+// }add()
+
+//            PROMISE
+
+// const myPromise= ((resolve,reject)=>{
+//     const rand = Math.floor(Math.random()*2);
+//     if (rand === 0) {
+//         console.log(resolve());
+//         ;
+//     }else{
+//         console.log(reject());
+        
+//     }
+// });
+// myPromise
+// .then(()=>console.log('success')).catch(()=>console.error('something went wrong'));
+
+
+function changePassword() {
+    let display = document.getElementById('appear')
+    let input1 = document.getElementById('input1');
+    let input2 = document.getElementById('input2');
+    if (input1.value === input2.value) {
+        display.textContent = "Password change successful";
+        display.style.color ="green"
+    }else if (input1.value === "") {
+        alert('input pass');
+    }else if (input2.value === "") {
+        alert('input something')
+    }else if (input1.value !== input2.value) {
+        display.textContent='incorrect password';
+        display.style.color = "red";
+    }
+   
 }
 
-function change() {
-    document.getElementById('nno').innerText="false";
+
+function togglePassword() {
+    let input1 = document.getElementById('input1');
+    let input2 = document.getElementById('input2');
+    
+    let type = input1.type === "password" ? "text" : "password";
+    input1.type = type;
+    input2.type = type;
 }
 
-
-
-
-
-
- 
-
+//  function Password() {
+    
+// let a = prompt('enter password');
+// let b = prompt('enter password');
+// if (a == b) {
+//     alert('correct password');
+// }else if (a !== b) {
+//     alert('incorrect password');
+// }
+//  }Password()
 
 
 
