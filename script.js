@@ -533,33 +533,33 @@
 // .then(()=>console.log('success')).catch(()=>console.error('something went wrong'));
 
 
-function changePassword() {
-    let display = document.getElementById('appear')
-    let input1 = document.getElementById('input1');
-    let input2 = document.getElementById('input2');
-    if (input1.value === input2.value) {
-        display.textContent = "Password change successful";
-        display.style.color ="green"
-    }else if (input1.value === "") {
-        alert('input pass');
-    }else if (input2.value === "") {
-        alert('input something')
-    }else if (input1.value !== input2.value) {
-        display.textContent='incorrect password';
-        display.style.color = "red";
-    }
+// function changePassword() {
+//     let display = document.getElementById('appear')
+//     let input1 = document.getElementById('input1');
+//     let input2 = document.getElementById('input2');
+//     if (input1.value === input2.value) {
+//         display.textContent = "Password change successful";
+//         display.style.color ="green"
+//     }else if (input1.value === "") {
+//         alert('input pass');
+//     }else if (input2.value === "") {
+//         alert('input something')
+//     }else if (input1.value !== input2.value) {
+//         display.textContent='incorrect password';
+//         display.style.color = "red";
+//     }
    
-}
+// }
 
 
-function togglePassword() {
-    let input1 = document.getElementById('input1');
-    let input2 = document.getElementById('input2');
+// function togglePassword() {
+//     let input1 = document.getElementById('input1');
+//     let input2 = document.getElementById('input2');
     
-    let type = input1.type === "password" ? "text" : "password";
-    input1.type = type;
-    input2.type = type;
-}
+//     let type = input1.type === "password" ? "text" : "password";
+//     input1.type = type;
+//     input2.type = type;
+// }
 
 //  function Password() {
     
@@ -573,6 +573,75 @@ function togglePassword() {
 //  }Password()
 
 
+// fetch("https://pokeapi.co/api/v2/pokemon/ditto")
+// .then((res)=>res.json())     // to get the response
+// .then((data)=>console.log(data))   // to get the actual data in the api
+// .catch((err)=>console.log(err))
+
+// const apiName =document.getElementById('api')
+
+// fetch("https://pokeapi.co/api/v2/pokemon/ditto")
+// .then(res => res.json())
+// .then(data => {
+//     apiName.innerHTML = `
+//         <h1>name: ${data.name}</h1>
+//         <h1>height: ${data.height}</h1>
+//         <h1>order: ${data.order}</h1>
+//         <img src=${data.img}/>
+
+//     `
+//     console.log(data);
+    
+// })
+
+
+// const holderName = document.getElementById('holder') 
+
+// fetch("https://jsonplaceholder.typicode.com/posts/1")
+// .then(res => res.json())
+// .then(data =>{
+//     holderName.innerHTML = `
+//     <p>body:${data.body}</p>
+//     <p>id:${data.id}</p>
+//     <p>title:${data.title}</p>
+//     `
+//     console.log(data); 
+// })
+
+// const thirdOne = document.getElementById('thirdApi')
+// fetch("https://jsonplaceholder.typicode.com/posts")
+// .then(res => res.json())
+// .then(data => {
+//     thirdOne.innerHTML=`
+//     <p>body:${data.body}</p>`
+//     console.log(data); 
+// })
+
+// function todoList() {
+//    let input = document.getElementById('input-box')
+//    let newElement = document.createElement('p')
+//    newElement.textContent=input.value;
+//    document.getElementById('taskList').appendChild(newElement)
+//    input.value="";
+// }
+
+
+// function newPassword() {
+//    let display = document.getElementById('appear')
+//    let firstInput= document.getElementById('input1')
+//    let secondInput = document.getElementById('input2')
+//  if (firstInput.value === "" || secondInput.value === "") {
+//    alert("Error")
+//  }else if (firstInput.value === secondInput.value) {
+//         display.textContent='password changed successfully'
+//         display.style.color="green";
+//    }else if (firstInput.value !== secondInput.value) {
+//       display.textContent= "incorrect password"
+//       display.style.color= "red";
+//    }
+// firstInput.value="";
+// secondInput.value="";
+// }
 
 
 
@@ -583,19 +652,140 @@ function togglePassword() {
 
 
 
+// // Function to fetch all posts from the API
+// function getPosts() {
+  
+   
+//   // Use the Fetch API to make an HTTP GET request to the posts endpoint
+//   fetch('https://jsonplaceholder.typicode.com/posts')
+    
+//     // After the fetch is successful, convert the response into JSON format
+//     .then(response => response.json())
+
+//     // Once we have the data in JSON format, handle it here
+//     .then(data => {
+
+//       // Log the entire response data (an array of 100 post objects) to the console
+//       console.log("All API Data:", data);
+
+//       // Get the <ul> element from the HTML where we will display the posts
+//       const postsList = document.getElementById('posts');
+
+//       // Clear any previous content in the list (if user clicks the button again)
+//       postsList.innerHTML = '';
+
+//       // Loop through each post in the API response
+//       data.forEach(post => {
+//         // Each 'post' is an object with these keys: userId, id, title, body
+
+//         // Create a new <li> element to represent one post
+//         const listItem = document.createElement('li');
+
+//         // Set the inner HTML of this <li> element with the post's data
+//         listItem.innerHTML = `
+//           <strong>${post.title}</strong><br>   <!-- Show the post title in bold -->
+//           ${post.body}<br>                     <!-- Show the post body (paragraph) -->
+//           <hr>                                 <!-- Horizontal line for separation -->
+//           <strong>${post.id}</strong>          <!-- Show the post ID in bold -->
+//         `;
+
+//         // Add this new <li> to the <ul> list in the HTML
+//         postsList.appendChild(listItem);
+//       });
+//     })
+
+//     // Catch any errors that happen during fetch or JSON parsing
+//     .catch(error => {
+//       console.error('Error fetching posts:', error); // Log the error to console
+//     });
+// }
 
 
 
 
+              // foreach
+
+// Step 1: Define the array
+    let fruits = ['Apple', 'Banana', 'Mango', 'Orange'];
+    fruits.push('man','woman');
+    fruits.splice(2, 0);
+      
+    // Step 2: Get the HTML element where we want to show the list
+    let listElement = document.getElementById('fruitList');
+
+    // Step 3: Loop through the array and add each item to the list
+    fruits.forEach(fruit => {
+      let listItem = document.createElement('li'); // Create <li>
+      listItem.textContent = fruit;
+      let listElement = document.getElementById('fruitList').appendChild(listItem);                // Set text
+      // listElement.appendChild(listItem);           // Add <li> to <ul>
+    });
 
 
 
 
+// mini project
+
+   // Create an empty array to store the items
+    // let items = [];
+
+    // // Function to add a new item to the array
+    // function addItem() {
+    //   // Get the value from the add input field
+    //   const input = document.getElementById('addInput');
+    //   const value = input.value.trim(); // Remove spaces
+
+    //   // Only add if input is not empty
+    //   if (value !== '') {
+    //     items.push(value);          // Add item to the array
+    //     input.value = '';           // Clear the input field
+    //     displayItems(items);        // Refresh the displayed list
+    //   }
+    // }
+
+    // // Function to search and filter items
+    // function searchItems() {
+    //   // Get the search term and convert to lowercase for case-insensitive search
+     
+    //   const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+      
+    //   // Filter the items array to include only matching values
+    //   const filtered = items.filter(item => item.toLowerCase().includes(searchTerm));
+       
+    //   // Display the filtered list
+    //   displayItems(filtered);
+    // }
+
+    // // Function to display a given list (either all or filtered)
+    // function displayItems(list) {
+    //   const listElement = document.getElementById('itemList');
+    //   listElement.innerHTML = ''; // Clear existing <li> elements
+
+    //   // Loop through each item and create an <li> for it
+    //   list.forEach(item => {
+    //     const li = document.createElement('li'); // Create list item
+    //     li.textContent = item;                   // Set text of list item
+    //     listElement.appendChild(li);             // Add to <ul> in HTML
+    //   });
+    // }
+  
+
+   //  function myChat() {
+   //  let display = document.getElementById('appear')
+   //  let input = document.getElementById('input-box')
+    
+   //  if (input.value === "") {
+   //    display.innerText="input-box empty"
+   //    display.style.color="red"
+   //  }
+   //  let newElement = document.createElement('p')
+   //  newElement.textContent = input.value;
+    
+   //  document.getElementById('chat').appendChild(newElement)
+   //  input.value="";
+   //  }
 
 
 
 
-
-
-
- 
+   

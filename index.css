@@ -79,11 +79,12 @@
   } */
 
   body{
-    background: wheat;
+    /* background: wheat;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100vh; */
   }
   #main-body{
     background-color: white;
@@ -114,4 +115,9 @@
   }
   #btn1:hover{
     background-color: lightskyblue;
+  }
+
+  #holder{
+    width: 20%;
+    padding-left: 20px;
   }
